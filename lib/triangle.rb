@@ -10,4 +10,14 @@ class Triangle
     @side_c = c
   end
 
+  def kind
+    if a == b && b == c
+      return :equilateral
+    elsif a == b || b == c
+      return :isosceles
+    end
+      
+      
+  end
+
 end
