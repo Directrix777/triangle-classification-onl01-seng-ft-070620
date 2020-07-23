@@ -3,7 +3,7 @@
 class Triangle
 
   attr_accessor :side_a, :side_b, :side_c
-  
+
   def initialize(a, b, c)
     @side_a = a
     @side_b = b
@@ -16,8 +16,8 @@ class Triangle
     elsif a == b || b == c
       return :isosceles
     end
-      
-      
+
+
   end
 
 end
