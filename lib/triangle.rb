@@ -16,7 +16,7 @@ class Triangle
       return :equilateral
     elsif @side_a == @side_b || @side_a == @side_c || @side_b == @side_c
       return :isosceles
-    elsif @side_a + @side_b > @side_c && @side_b + @side_c > @side_a && @side_c + @side_a > @side_b && !(@sides.include(0))
+    elsif @side_a + @side_b > @side_c && @side_b + @side_c > @side_a && @side_c + @side_a > @side_b && !(@sides.include?(0))
       return :scalene
     else
       raise TriangleError
