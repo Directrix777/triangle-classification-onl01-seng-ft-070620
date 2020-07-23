@@ -16,7 +16,7 @@ class Triangle
     elsif @side_a == @side_b || @side_a == @side_c || @side_b == @side_c
       return :isosceles
     elsif @side_a + @side_b > @side_c && @side_b + @side_c > @side_a && @side_c + @side_a > @side_b && 
-      
+
 
 
   end
