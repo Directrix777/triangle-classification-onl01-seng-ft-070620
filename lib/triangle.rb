@@ -11,9 +11,9 @@ class Triangle
   end
 
   def kind
-    if a == b && b == c
+    if @side_a == @side_b && @side_b == @side_c
       return :equilateral
-    elsif a == b || b == c
+    elsif @side_a == @side_b || @side_b == @side_c
       return :isosceles
     end
 
